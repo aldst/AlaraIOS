@@ -1,0 +1,653 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E2295C9235FD03C0030A79D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2295C8235FD03C0030A79D /* AppDelegate.swift */; };
+		1E2295CB235FD03C0030A79D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2295CA235FD03C0030A79D /* SceneDelegate.swift */; };
+		1E2295CD235FD03C0030A79D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2295CC235FD03C0030A79D /* ViewController.swift */; };
+		1E2295D0235FD03C0030A79D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E2295CE235FD03C0030A79D /* Main.storyboard */; };
+		1E2295D2235FD0460030A79D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E2295D1235FD0460030A79D /* Assets.xcassets */; };
+		1E2295D5235FD0460030A79D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E2295D3235FD0460030A79D /* LaunchScreen.storyboard */; };
+		1E2295E0235FD0460030A79D /* AlaraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2295DF235FD0460030A79D /* AlaraTests.swift */; };
+		1E2295EB235FD0470030A79D /* AlaraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2295EA235FD0470030A79D /* AlaraUITests.swift */; };
+		1E2295F9236006550030A79D /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2295F8236006550030A79D /* SignUpViewController.swift */; };
+		1E2295FB236006770030A79D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2295FA236006770030A79D /* LoginViewController.swift */; };
+		1E2295FD2360068A0030A79D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2295FC2360068A0030A79D /* HomeViewController.swift */; };
+		1E22960023600CEA0030A79D /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2295FF23600CEA0030A79D /* ForgotPasswordViewController.swift */; };
+		1E22960623612C8E0030A79D /* MyLibrarySongTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E22960523612C8E0030A79D /* MyLibrarySongTableViewController.swift */; };
+		1E229608236131890030A79D /* SearchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E229607236131890030A79D /* SearchTableViewController.swift */; };
+		1E22960A236131DA0030A79D /* ArtistCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E229609236131DA0030A79D /* ArtistCollectionViewController.swift */; };
+		1E22960C236132110030A79D /* AlbumCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E22960B236132110030A79D /* AlbumCollectionViewController.swift */; };
+		1E589BC22364934B0050E6FC /* CancionesVer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E589BC12364934B0050E6FC /* CancionesVer.swift */; };
+		1E589BC42364B4E70050E6FC /* BloqueCancionesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E589BC32364B4E70050E6FC /* BloqueCancionesCell.swift */; };
+		8B0A133A23620E2000DFE27C /* Cancion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0A133923620E2000DFE27C /* Cancion.swift */; };
+		8B0A13432362121900DFE27C /* CancionVerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0A13422362121900DFE27C /* CancionVerCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1E2295DC235FD0460030A79D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1E2295BD235FD03B0030A79D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E2295C4235FD03B0030A79D;
+			remoteInfo = Alara;
+		};
+		1E2295E7235FD0470030A79D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1E2295BD235FD03B0030A79D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E2295C4235FD03B0030A79D;
+			remoteInfo = Alara;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1E2295C5235FD03C0030A79D /* Alara.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Alara.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E2295C8235FD03C0030A79D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1E2295CA235FD03C0030A79D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1E2295CC235FD03C0030A79D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1E2295CF235FD03C0030A79D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1E2295D1235FD0460030A79D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1E2295D4235FD0460030A79D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1E2295D6235FD0460030A79D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E2295DB235FD0460030A79D /* AlaraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlaraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E2295DF235FD0460030A79D /* AlaraTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlaraTests.swift; sourceTree = "<group>"; };
+		1E2295E1235FD0460030A79D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E2295E6235FD0470030A79D /* AlaraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlaraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E2295EA235FD0470030A79D /* AlaraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlaraUITests.swift; sourceTree = "<group>"; };
+		1E2295EC235FD0470030A79D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E2295F8236006550030A79D /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		1E2295FA236006770030A79D /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		1E2295FC2360068A0030A79D /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		1E2295FF23600CEA0030A79D /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		1E22960523612C8E0030A79D /* MyLibrarySongTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyLibrarySongTableViewController.swift; sourceTree = "<group>"; };
+		1E229607236131890030A79D /* SearchTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTableViewController.swift; sourceTree = "<group>"; };
+		1E229609236131DA0030A79D /* ArtistCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistCollectionViewController.swift; sourceTree = "<group>"; };
+		1E22960B236132110030A79D /* AlbumCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumCollectionViewController.swift; sourceTree = "<group>"; };
+		1E589BC12364934B0050E6FC /* CancionesVer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CancionesVer.swift; sourceTree = "<group>"; };
+		1E589BC32364B4E70050E6FC /* BloqueCancionesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BloqueCancionesCell.swift; sourceTree = "<group>"; };
+		8B0A133923620E2000DFE27C /* Cancion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cancion.swift; sourceTree = "<group>"; };
+		8B0A13422362121900DFE27C /* CancionVerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CancionVerCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1E2295C2235FD03B0030A79D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E2295D8235FD0460030A79D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E2295E3235FD0460030A79D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E2295BC235FD03B0030A79D = {
+			isa = PBXGroup;
+			children = (
+				1E2295C7235FD03C0030A79D /* Alara */,
+				1E2295DE235FD0460030A79D /* AlaraTests */,
+				1E2295E9235FD0470030A79D /* AlaraUITests */,
+				1E2295C6235FD03C0030A79D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1E2295C6235FD03C0030A79D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1E2295C5235FD03C0030A79D /* Alara.app */,
+				1E2295DB235FD0460030A79D /* AlaraTests.xctest */,
+				1E2295E6235FD0470030A79D /* AlaraUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1E2295C7235FD03C0030A79D /* Alara */ = {
+			isa = PBXGroup;
+			children = (
+				8B0A133B23620E6B00DFE27C /* Cancion */,
+				1E2295FE236006B00030A79D /* View Controllers */,
+				1E2295C8235FD03C0030A79D /* AppDelegate.swift */,
+				1E2295CA235FD03C0030A79D /* SceneDelegate.swift */,
+				1E2295CE235FD03C0030A79D /* Main.storyboard */,
+				1E2295D1235FD0460030A79D /* Assets.xcassets */,
+				1E2295D3235FD0460030A79D /* LaunchScreen.storyboard */,
+				1E2295D6235FD0460030A79D /* Info.plist */,
+			);
+			path = Alara;
+			sourceTree = "<group>";
+		};
+		1E2295DE235FD0460030A79D /* AlaraTests */ = {
+			isa = PBXGroup;
+			children = (
+				1E2295DF235FD0460030A79D /* AlaraTests.swift */,
+				1E2295E1235FD0460030A79D /* Info.plist */,
+			);
+			path = AlaraTests;
+			sourceTree = "<group>";
+		};
+		1E2295E9235FD0470030A79D /* AlaraUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1E2295EA235FD0470030A79D /* AlaraUITests.swift */,
+				1E2295EC235FD0470030A79D /* Info.plist */,
+			);
+			path = AlaraUITests;
+			sourceTree = "<group>";
+		};
+		1E2295FE236006B00030A79D /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1E2295F8236006550030A79D /* SignUpViewController.swift */,
+				1E2295FC2360068A0030A79D /* HomeViewController.swift */,
+				1E2295FA236006770030A79D /* LoginViewController.swift */,
+				1E2295CC235FD03C0030A79D /* ViewController.swift */,
+				1E2295FF23600CEA0030A79D /* ForgotPasswordViewController.swift */,
+				1E22960523612C8E0030A79D /* MyLibrarySongTableViewController.swift */,
+				1E229607236131890030A79D /* SearchTableViewController.swift */,
+				1E229609236131DA0030A79D /* ArtistCollectionViewController.swift */,
+				1E22960B236132110030A79D /* AlbumCollectionViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		8B0A133B23620E6B00DFE27C /* Cancion */ = {
+			isa = PBXGroup;
+			children = (
+				8B0A133923620E2000DFE27C /* Cancion.swift */,
+				8B0A13422362121900DFE27C /* CancionVerCell.swift */,
+				1E589BC12364934B0050E6FC /* CancionesVer.swift */,
+				1E589BC32364B4E70050E6FC /* BloqueCancionesCell.swift */,
+			);
+			path = Cancion;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1E2295C4235FD03B0030A79D /* Alara */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E2295EF235FD0470030A79D /* Build configuration list for PBXNativeTarget "Alara" */;
+			buildPhases = (
+				1E2295C1235FD03B0030A79D /* Sources */,
+				1E2295C2235FD03B0030A79D /* Frameworks */,
+				1E2295C3235FD03B0030A79D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Alara;
+			productName = Alara;
+			productReference = 1E2295C5235FD03C0030A79D /* Alara.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1E2295DA235FD0460030A79D /* AlaraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E2295F2235FD0470030A79D /* Build configuration list for PBXNativeTarget "AlaraTests" */;
+			buildPhases = (
+				1E2295D7235FD0460030A79D /* Sources */,
+				1E2295D8235FD0460030A79D /* Frameworks */,
+				1E2295D9235FD0460030A79D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1E2295DD235FD0460030A79D /* PBXTargetDependency */,
+			);
+			name = AlaraTests;
+			productName = AlaraTests;
+			productReference = 1E2295DB235FD0460030A79D /* AlaraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1E2295E5235FD0460030A79D /* AlaraUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E2295F5235FD0470030A79D /* Build configuration list for PBXNativeTarget "AlaraUITests" */;
+			buildPhases = (
+				1E2295E2235FD0460030A79D /* Sources */,
+				1E2295E3235FD0460030A79D /* Frameworks */,
+				1E2295E4235FD0460030A79D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1E2295E8235FD0470030A79D /* PBXTargetDependency */,
+			);
+			name = AlaraUITests;
+			productName = AlaraUITests;
+			productReference = 1E2295E6235FD0470030A79D /* AlaraUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1E2295BD235FD03B0030A79D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = "alvaro Soto";
+				TargetAttributes = {
+					1E2295C4235FD03B0030A79D = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					1E2295DA235FD0460030A79D = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 1E2295C4235FD03B0030A79D;
+					};
+					1E2295E5235FD0460030A79D = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 1E2295C4235FD03B0030A79D;
+					};
+				};
+			};
+			buildConfigurationList = 1E2295C0235FD03B0030A79D /* Build configuration list for PBXProject "Alara" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1E2295BC235FD03B0030A79D;
+			productRefGroup = 1E2295C6235FD03C0030A79D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1E2295C4235FD03B0030A79D /* Alara */,
+				1E2295DA235FD0460030A79D /* AlaraTests */,
+				1E2295E5235FD0460030A79D /* AlaraUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1E2295C3235FD03B0030A79D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E2295D5235FD0460030A79D /* LaunchScreen.storyboard in Resources */,
+				1E2295D2235FD0460030A79D /* Assets.xcassets in Resources */,
+				1E2295D0235FD03C0030A79D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E2295D9235FD0460030A79D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E2295E4235FD0460030A79D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1E2295C1235FD03B0030A79D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E22960C236132110030A79D /* AlbumCollectionViewController.swift in Sources */,
+				1E2295CD235FD03C0030A79D /* ViewController.swift in Sources */,
+				1E22960A236131DA0030A79D /* ArtistCollectionViewController.swift in Sources */,
+				8B0A133A23620E2000DFE27C /* Cancion.swift in Sources */,
+				8B0A13432362121900DFE27C /* CancionVerCell.swift in Sources */,
+				1E229608236131890030A79D /* SearchTableViewController.swift in Sources */,
+				1E22960023600CEA0030A79D /* ForgotPasswordViewController.swift in Sources */,
+				1E22960623612C8E0030A79D /* MyLibrarySongTableViewController.swift in Sources */,
+				1E2295C9235FD03C0030A79D /* AppDelegate.swift in Sources */,
+				1E2295F9236006550030A79D /* SignUpViewController.swift in Sources */,
+				1E2295FB236006770030A79D /* LoginViewController.swift in Sources */,
+				1E589BC22364934B0050E6FC /* CancionesVer.swift in Sources */,
+				1E2295CB235FD03C0030A79D /* SceneDelegate.swift in Sources */,
+				1E2295FD2360068A0030A79D /* HomeViewController.swift in Sources */,
+				1E589BC42364B4E70050E6FC /* BloqueCancionesCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E2295D7235FD0460030A79D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E2295E0235FD0460030A79D /* AlaraTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E2295E2235FD0460030A79D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E2295EB235FD0470030A79D /* AlaraUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1E2295DD235FD0460030A79D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1E2295C4235FD03B0030A79D /* Alara */;
+			targetProxy = 1E2295DC235FD0460030A79D /* PBXContainerItemProxy */;
+		};
+		1E2295E8235FD0470030A79D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1E2295C4235FD03B0030A79D /* Alara */;
+			targetProxy = 1E2295E7235FD0470030A79D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1E2295CE235FD03C0030A79D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1E2295CF235FD03C0030A79D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1E2295D3235FD0460030A79D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1E2295D4235FD0460030A79D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1E2295ED235FD0470030A79D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1E2295EE235FD0470030A79D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1E2295F0235FD0470030A79D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Alara/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alara.Alara;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1E2295F1235FD0470030A79D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Alara/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alara.Alara;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1E2295F3235FD0470030A79D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AlaraTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alara.AlaraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Alara.app/Alara";
+			};
+			name = Debug;
+		};
+		1E2295F4235FD0470030A79D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AlaraTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alara.AlaraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Alara.app/Alara";
+			};
+			name = Release;
+		};
+		1E2295F6235FD0470030A79D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AlaraUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alara.AlaraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Alara;
+			};
+			name = Debug;
+		};
+		1E2295F7235FD0470030A79D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AlaraUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alara.AlaraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Alara;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1E2295C0235FD03B0030A79D /* Build configuration list for PBXProject "Alara" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E2295ED235FD0470030A79D /* Debug */,
+				1E2295EE235FD0470030A79D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E2295EF235FD0470030A79D /* Build configuration list for PBXNativeTarget "Alara" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E2295F0235FD0470030A79D /* Debug */,
+				1E2295F1235FD0470030A79D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E2295F2235FD0470030A79D /* Build configuration list for PBXNativeTarget "AlaraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E2295F3235FD0470030A79D /* Debug */,
+				1E2295F4235FD0470030A79D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E2295F5235FD0470030A79D /* Build configuration list for PBXNativeTarget "AlaraUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E2295F6235FD0470030A79D /* Debug */,
+				1E2295F7235FD0470030A79D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1E2295BD235FD03B0030A79D /* Project object */;
+}
