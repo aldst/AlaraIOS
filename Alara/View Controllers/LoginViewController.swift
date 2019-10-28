@@ -7,30 +7,41 @@
 //
 
 import UIKit
+import FirebaseAuth
 
 class LoginViewController: UIViewController {
 
     @IBOutlet weak var correo: UITextField!
     @IBOutlet weak var contrasena: UITextField!
+    @IBOutlet weak var err: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        err.alpha = 0
     }
     
     
     @IBAction func iniciarSesion(_ sender: Any) {
         
-        if (correo.text != "Alvaro" || contrasena.text != "123456") {
+    
+        
+        let email = correo.text!.trimmingCharacters(in: .whitespacesAndNewlines)
+        let contrasena = correo.text!.trimmingCharacters(in: .whitespacesAndNewlines)
+        
+        Auth.auth().signIn(withEmail: email, password: contrasena) {
+            (result, error) in
             
-            let alert = UIAlertController(title: "El nombre del usuario o la contrasena es incorrecta", message: nil, preferredStyle: .alert)
-            
-
-            
-            alert.addAction(UIAlertAction(title: "Intentar de nuevo", style: .default, handler: nil))
-            //alert.addAction(UIAlertAction(title: "No", style: .default, handler: nil))
-            
-            self.present(alert, animated: true, completion: nil)
+            if error != nil {
+                self.err.text = error!.localizedDescription
+                self.err.alpha = 1
+            }
+            else{
+                let homeViewController = self.storyboard?.instantiateViewController(identifier: Constants.Storyboard.homeViewController) as?
+                HomeViewController
+                
+                self.view.window?.rootViewController = homeViewController
+                self.view.window?.makeKeyAndVisible()
+            }
         }
         
     }

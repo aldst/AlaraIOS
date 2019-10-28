@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		14E8BF897781C392BDC92D96 /* Pods_AlaraTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24FBEF3B8A865F1356C64222 /* Pods_AlaraTests.framework */; };
 		1E2295C9235FD03C0030A79D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2295C8235FD03C0030A79D /* AppDelegate.swift */; };
 		1E2295CB235FD03C0030A79D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2295CA235FD03C0030A79D /* SceneDelegate.swift */; };
 		1E2295CD235FD03C0030A79D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2295CC235FD03C0030A79D /* ViewController.swift */; };
@@ -25,8 +26,12 @@
 		1E22960C236132110030A79D /* AlbumCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E22960B236132110030A79D /* AlbumCollectionViewController.swift */; };
 		1E589BC22364934B0050E6FC /* CancionesVer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E589BC12364934B0050E6FC /* CancionesVer.swift */; };
 		1E589BC42364B4E70050E6FC /* BloqueCancionesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E589BC32364B4E70050E6FC /* BloqueCancionesCell.swift */; };
+		1E6DD6D02365328400A29A5A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1E6DD6CF2365328400A29A5A /* GoogleService-Info.plist */; };
+		1E6DD6D32365583800A29A5A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6DD6D22365583800A29A5A /* Constants.swift */; };
 		8B0A133A23620E2000DFE27C /* Cancion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0A133923620E2000DFE27C /* Cancion.swift */; };
 		8B0A13432362121900DFE27C /* CancionVerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0A13422362121900DFE27C /* CancionVerCell.swift */; };
+		B7664679C5FB8C2ED51D0169 /* Pods_Alara_AlaraUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B3EBBE4767D11303592A7FC /* Pods_Alara_AlaraUITests.framework */; };
+		D82673EA9A355E9C4740564E /* Pods_Alara.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1885F632AE837BE74C966A96 /* Pods_Alara.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +52,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1885F632AE837BE74C966A96 /* Pods_Alara.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Alara.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E2295C5235FD03C0030A79D /* Alara.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Alara.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E2295C8235FD03C0030A79D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1E2295CA235FD03C0030A79D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -71,8 +77,18 @@
 		1E22960B236132110030A79D /* AlbumCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumCollectionViewController.swift; sourceTree = "<group>"; };
 		1E589BC12364934B0050E6FC /* CancionesVer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CancionesVer.swift; sourceTree = "<group>"; };
 		1E589BC32364B4E70050E6FC /* BloqueCancionesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BloqueCancionesCell.swift; sourceTree = "<group>"; };
+		1E6DD6CF2365328400A29A5A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		1E6DD6D22365583800A29A5A /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		24FBEF3B8A865F1356C64222 /* Pods_AlaraTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AlaraTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3609115B205A6D3C5FB3B2FE /* Pods-AlaraTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlaraTests.debug.xcconfig"; path = "Target Support Files/Pods-AlaraTests/Pods-AlaraTests.debug.xcconfig"; sourceTree = "<group>"; };
+		41AB3E4575DB896D8BDC0B27 /* Pods-AlaraTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlaraTests.release.xcconfig"; path = "Target Support Files/Pods-AlaraTests/Pods-AlaraTests.release.xcconfig"; sourceTree = "<group>"; };
+		4B3EBBE4767D11303592A7FC /* Pods_Alara_AlaraUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Alara_AlaraUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B0A133923620E2000DFE27C /* Cancion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cancion.swift; sourceTree = "<group>"; };
 		8B0A13422362121900DFE27C /* CancionVerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CancionVerCell.swift; sourceTree = "<group>"; };
+		A1330FFAF74B0C095C786511 /* Pods-Alara.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Alara.debug.xcconfig"; path = "Target Support Files/Pods-Alara/Pods-Alara.debug.xcconfig"; sourceTree = "<group>"; };
+		BA70A91B0CDB0635A0CDAC2F /* Pods-Alara-AlaraUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Alara-AlaraUITests.debug.xcconfig"; path = "Target Support Files/Pods-Alara-AlaraUITests/Pods-Alara-AlaraUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BBEDDFF7F492F47D2C2DA7A2 /* Pods-Alara-AlaraUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Alara-AlaraUITests.release.xcconfig"; path = "Target Support Files/Pods-Alara-AlaraUITests/Pods-Alara-AlaraUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F11689B90F30211A130BF67E /* Pods-Alara.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Alara.release.xcconfig"; path = "Target Support Files/Pods-Alara/Pods-Alara.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D82673EA9A355E9C4740564E /* Pods_Alara.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,6 +104,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14E8BF897781C392BDC92D96 /* Pods_AlaraTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,6 +112,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7664679C5FB8C2ED51D0169 /* Pods_Alara_AlaraUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -107,6 +126,8 @@
 				1E2295DE235FD0460030A79D /* AlaraTests */,
 				1E2295E9235FD0470030A79D /* AlaraUITests */,
 				1E2295C6235FD03C0030A79D /* Products */,
+				BB3BF90E5EE53526E9AD6B00 /* Pods */,
+				D128EA8A69F6285EE07D98B9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -123,6 +144,7 @@
 		1E2295C7235FD03C0030A79D /* Alara */ = {
 			isa = PBXGroup;
 			children = (
+				1E6DD6D12365581400A29A5A /* Helpers */,
 				8B0A133B23620E6B00DFE27C /* Cancion */,
 				1E2295FE236006B00030A79D /* View Controllers */,
 				1E2295C8235FD03C0030A79D /* AppDelegate.swift */,
@@ -130,6 +152,7 @@
 				1E2295CE235FD03C0030A79D /* Main.storyboard */,
 				1E2295D1235FD0460030A79D /* Assets.xcassets */,
 				1E2295D3235FD0460030A79D /* LaunchScreen.storyboard */,
+				1E6DD6CF2365328400A29A5A /* GoogleService-Info.plist */,
 				1E2295D6235FD0460030A79D /* Info.plist */,
 			);
 			path = Alara;
@@ -169,6 +192,14 @@
 			path = "View Controllers";
 			sourceTree = "<group>";
 		};
+		1E6DD6D12365581400A29A5A /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				1E6DD6D22365583800A29A5A /* Constants.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		8B0A133B23620E6B00DFE27C /* Cancion */ = {
 			isa = PBXGroup;
 			children = (
@@ -180,6 +211,29 @@
 			path = Cancion;
 			sourceTree = "<group>";
 		};
+		BB3BF90E5EE53526E9AD6B00 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A1330FFAF74B0C095C786511 /* Pods-Alara.debug.xcconfig */,
+				F11689B90F30211A130BF67E /* Pods-Alara.release.xcconfig */,
+				BA70A91B0CDB0635A0CDAC2F /* Pods-Alara-AlaraUITests.debug.xcconfig */,
+				BBEDDFF7F492F47D2C2DA7A2 /* Pods-Alara-AlaraUITests.release.xcconfig */,
+				3609115B205A6D3C5FB3B2FE /* Pods-AlaraTests.debug.xcconfig */,
+				41AB3E4575DB896D8BDC0B27 /* Pods-AlaraTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D128EA8A69F6285EE07D98B9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1885F632AE837BE74C966A96 /* Pods_Alara.framework */,
+				4B3EBBE4767D11303592A7FC /* Pods_Alara_AlaraUITests.framework */,
+				24FBEF3B8A865F1356C64222 /* Pods_AlaraTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -187,9 +241,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1E2295EF235FD0470030A79D /* Build configuration list for PBXNativeTarget "Alara" */;
 			buildPhases = (
+				940DAABE9F98A3EB3191DC5B /* [CP] Check Pods Manifest.lock */,
 				1E2295C1235FD03B0030A79D /* Sources */,
 				1E2295C2235FD03B0030A79D /* Frameworks */,
 				1E2295C3235FD03B0030A79D /* Resources */,
+				8B6D97BA20B7AF4939F16076 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -204,6 +260,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1E2295F2235FD0470030A79D /* Build configuration list for PBXNativeTarget "AlaraTests" */;
 			buildPhases = (
+				615C6902400CCEE038372773 /* [CP] Check Pods Manifest.lock */,
 				1E2295D7235FD0460030A79D /* Sources */,
 				1E2295D8235FD0460030A79D /* Frameworks */,
 				1E2295D9235FD0460030A79D /* Resources */,
@@ -222,9 +279,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1E2295F5235FD0470030A79D /* Build configuration list for PBXNativeTarget "AlaraUITests" */;
 			buildPhases = (
+				29016E48F2220C83E7099453 /* [CP] Check Pods Manifest.lock */,
 				1E2295E2235FD0460030A79D /* Sources */,
 				1E2295E3235FD0460030A79D /* Frameworks */,
 				1E2295E4235FD0460030A79D /* Resources */,
+				9B629142D20C91EDF66CEF54 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -285,6 +344,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1E2295D5235FD0460030A79D /* LaunchScreen.storyboard in Resources */,
+				1E6DD6D02365328400A29A5A /* GoogleService-Info.plist in Resources */,
 				1E2295D2235FD0460030A79D /* Assets.xcassets in Resources */,
 				1E2295D0235FD03C0030A79D /* Main.storyboard in Resources */,
 			);
@@ -306,6 +366,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		29016E48F2220C83E7099453 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Alara-AlaraUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		615C6902400CCEE038372773 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AlaraTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8B6D97BA20B7AF4939F16076 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Alara/Pods-Alara-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Alara/Pods-Alara-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Alara/Pods-Alara-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		940DAABE9F98A3EB3191DC5B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Alara-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9B629142D20C91EDF66CEF54 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Alara-AlaraUITests/Pods-Alara-AlaraUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Alara-AlaraUITests/Pods-Alara-AlaraUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Alara-AlaraUITests/Pods-Alara-AlaraUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1E2295C1235FD03B0030A79D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -318,6 +481,7 @@
 				8B0A13432362121900DFE27C /* CancionVerCell.swift in Sources */,
 				1E229608236131890030A79D /* SearchTableViewController.swift in Sources */,
 				1E22960023600CEA0030A79D /* ForgotPasswordViewController.swift in Sources */,
+				1E6DD6D32365583800A29A5A /* Constants.swift in Sources */,
 				1E22960623612C8E0030A79D /* MyLibrarySongTableViewController.swift in Sources */,
 				1E2295C9235FD03C0030A79D /* AppDelegate.swift in Sources */,
 				1E2295F9236006550030A79D /* SignUpViewController.swift in Sources */,
@@ -496,6 +660,7 @@
 		};
 		1E2295F0235FD0470030A79D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1330FFAF74B0C095C786511 /* Pods-Alara.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -513,6 +678,7 @@
 		};
 		1E2295F1235FD0470030A79D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F11689B90F30211A130BF67E /* Pods-Alara.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -530,6 +696,7 @@
 		};
 		1E2295F3235FD0470030A79D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3609115B205A6D3C5FB3B2FE /* Pods-AlaraTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -551,6 +718,7 @@
 		};
 		1E2295F4235FD0470030A79D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41AB3E4575DB896D8BDC0B27 /* Pods-AlaraTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -572,6 +740,7 @@
 		};
 		1E2295F6235FD0470030A79D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA70A91B0CDB0635A0CDAC2F /* Pods-Alara-AlaraUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -591,6 +760,7 @@
 		};
 		1E2295F7235FD0470030A79D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBEDDFF7F492F47D2C2DA7A2 /* Pods-Alara-AlaraUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

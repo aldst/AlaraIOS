@@ -1,0 +1,6 @@
+framework module Pods_Alara_AlaraUITests {
+  umbrella header "Pods-Alara-AlaraUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
